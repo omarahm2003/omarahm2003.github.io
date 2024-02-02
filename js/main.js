@@ -52,7 +52,7 @@ $(function () {
             }
             
             if (parseInt(score.text()) === 10) {
-                window.location.href = 'D:/21%20s/in.html'; // Replace with your desired URL
+                window.location.href = 'in.html'; // Replace with your desired URL
             }
 
             if(pole2_current_position > container_width - bird_left) {
