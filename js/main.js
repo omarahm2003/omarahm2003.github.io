@@ -52,8 +52,8 @@ $(function () {
             }
             
             if (parseInt(score.text()) === 10) {
-                window.location.href = 'in.html'; // Replace with your desired URL
-            }
+                    window.location.href = 'in.html';
+             }
 
             if(pole2_current_position > container_width - bird_left) {
                 
