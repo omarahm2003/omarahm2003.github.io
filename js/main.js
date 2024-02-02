@@ -96,20 +96,15 @@ $(function () {
         }
     }, 40);
     
-    $(document).on('keydown', function(e) {
-        var key = e.keyCode;
-        if(key === 32 && go_up === false && game_over === false) {
+     $(document).on('touchstart', function() {
+        if (go_up === false && game_over === false) {
             go_up = setInterval(up, 50);
         }
     });
-    
-    $(document).on('keyup', function(e) {
-        var key = e.keyCode;
-        if(key === 32) {
-           clearInterval(go_up);
-            go_up = false;
-            
-        }
+
+    $(document).on('touchend', function() {
+        clearInterval(go_up);
+        go_up = false;
     });
     
     function go_down() {
