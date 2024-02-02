@@ -88,8 +88,8 @@ p:first-child {
 p.signed {
   margin-top: 1.1em;
   text-align: center;
-  font-family: 'Lobster', cursive;
-  font-size: 1.2 em;
+  font-family: 'Open Sans', cursive;
+  font-size: 1.5 em;
 }
 
 #card-front {
