@@ -9,7 +9,7 @@ body {
   background:#000;
   background-image: url("bg.jpg");
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: bolder;
 }
 
 #card-front {
