@@ -44,7 +44,16 @@
 </div>
 </div>
 <button id="open" data-balloon="Click to Open Card !" data-balloon-length="medium" data-balloon-pos="left" data-balloon-visible>&gt;</button>
+<audio id="myAudio" src="tamer2.mp3"></audio>
 <button id="close" data-balloon="! bɿɒɔ ɘƨolɔ oɈ ʞɔilƆ" data-balloon-length="medium" data-balloon-pos="left" data-balloon-visible>&lt;</button>
+<script>
+    var audio = document.getElementById("myAudio");
+    var openButton = document.getElementById("open");
+
+    openButton.addEventListener("click", function() {
+        audio.play();
+    });
+</script>
 <div class="card-front_inside">
 <br> <br> <br>
 <div class="polaroid">
